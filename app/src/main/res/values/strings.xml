@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CefimAndroid</string>
+    <string name="city_name">New York</string>
+    <string name="city_desc">Ensoleillé</string>
+    <string name="city_temp">24°C</string>
+    <string name="bookmarks">Favoris</string>
+    <string name="sun_image_desc">Sun</string>
+    <string name="network_not_found">Aucune connection à internet</string>
+    <string name="btn2">button 2</string>
+    <string name="btn3">button 3</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="placeholder">Votre message</string>
+    <string name="todo">TODO</string>
+    <string name="res_message">message:</string>
+    <string name="bookmarks_title">Vos favoris</string>
+    <string name="add_bookmark_placeholder">Ajouter une ville</string>
+    <string name="cancel">annuler</string>
+    <string name="accept">ok</string>
+</resources>

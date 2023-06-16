@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/input_container">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_bookmark_placeholder"
+            android:id="@+id/add_bookmark_title"
+            android:labelFor="@+id/add_bookmark_input" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/add_bookmark_input"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:contentDescription="@string/todo"
+            android:inputType="text"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/input_container"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:textColor="@color/background_orange"
+            android:onClick="handleCloseDialog"
+            android:id="@+id/cancel_btn_bookmark"
+            tools:ignore="UsingOnClickInXml" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accept"
+            android:textAllCaps="true"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/background_orange"
+            android:onClick="handleAddBookmark"
+            android:id="@+id/accept_btn_bookmark"
+            tools:ignore="UsingOnClickInXml" />
+    </LinearLayout>
+
+</RelativeLayout>
